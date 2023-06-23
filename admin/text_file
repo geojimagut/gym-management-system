@@ -1,0 +1,5 @@
+$paid = $conn->query("SELECT * FROM registration_info inner join plans where registration_info.plan_id= plans.id");
+
+<!-- <p>Plan Membership Fee: </i> <b class="float-right"><?php echo ($pcount<=0)? number_format($pamount,2).' (One-time amount only)': 'Paid Already' ?></b></p> -->
+					<!-- <p>Package Amount: </i> <b class="float-right"><?php echo number_format($ppamount,2) ?></b></p> -->
+					<!-- <p>Trainer Fee: </i> <b class="float-right"><?php echo number_format($tf) ?></b></p> -->
